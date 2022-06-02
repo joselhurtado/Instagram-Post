@@ -2,6 +2,31 @@ body {
    background-color: black;
 }
 
-h1 {
-    color: red;
+p {
+    font-size: 12px;
+}
+
+div.Post {
+    background-color: #FFF;
+    max-width: 400px;
+    height: 500px;
+
+}
+
+div.Post-Header {
+    background-color: #FFF;
+    max-width: 400px;
+    height: 90px;
+    display:flex;
+}
+
+div.Post-Header > img {
+    padding: 5px;
+    max-width: 20px;
+    height: auto;
+}
+
+div.Post-Image > img {
+    max-width: 400px;
+    height: auto;
 }
