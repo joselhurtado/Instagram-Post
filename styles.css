@@ -1,32 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
 body {
-   background-color: black;
+    background-color: #cccccc;
 }
-
-p {
+.container {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.mediaViewInfo {
+    --web-view-name: IG_Post;
+    --web-view-id: IG_Post;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: IG_Post;
+}
+#IG_Post {
+    margin-top: 50px;
+    position: absolute;
+    width: 400px;
+    height: 550px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: IG_Post;
+    --web-view-id: IG_Post;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+    border-radius: 5px;
+}
+#Main_Card {
+    fill: rgba(255,255,255,1);
+}
+.Main_Card {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.3));
+    position: absolute;
+    overflow: visible;
+    width: 418px;
+    height: 568px;
+    left: 0px;
+    top: 0px;
+}
+#Div_Image {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 0px;
+    top: 50px;
+    overflow: visible;
+}
+#H1-HTML5 {
+    left: 41px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 51px;
+    height: 20px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+}
+#p-Jose_Hurtado {
+    left: 41px;
+    top: 30px;
+    position: absolute;
+    overflow: visible;
+    width: 61px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 10px;
+    color: rgba(0,0,0,1);
+}
+#p-Liked_by_4GeeksAcademy_html5 {
+    left: 10px;
+    top: 445px;
+    position: absolute;
+    overflow: hidden;
+    width: 381px;
+    height: 18px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
     font-size: 12px;
+    color: rgba(0,0,0,1);
 }
-
-div.Post {
-    background-color: #FFF;
-    max-width: 400px;
-    height: 500px;
-
+#p-The_term_HTML5_is_essentiall {
+    left: 10px;
+    top: 473px;
+    position: absolute;
+    overflow: visible;
+    width: 379px;
+    height: 64px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
 }
-
-div.Post-Header {
-    background-color: #FFF;
-    max-width: 400px;
-    height: 90px;
-    display:flex;
+#html5-brands {
+    fill: rgba(0,0,0,1);
 }
-
-div.Post-Header > img {
-    padding: 5px;
-    max-width: 20px;
-    height: auto;
+.html5-brands {
+    overflow: visible;
+    position: absolute;
+    width: 26.174px;
+    height: 30.536px;
+    left: 10px;
+    top: 11.232px;
+    transform: matrix(1,0,0,1,0,0);
 }
-
-div.Post-Image > img {
-    max-width: 400px;
-    height: auto;
+#ellipsis-vertical-solid {
+    fill: rgba(0,0,0,1);
+}
+.ellipsis-vertical-solid {
+    overflow: visible;
+    position: absolute;
+    width: 5.377px;
+    height: 20.741px;
+    left: 383.377px;
+    top: 14.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#paper-plane-regular {
+    fill: rgba(0,0,0,1);
+}
+.paper-plane-regular {
+    overflow: visible;
+    position: absolute;
+    width: 24.975px;
+    height: 25px;
+    left: 93.255px;
+    top: 410px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#bookmark-regular {
+    fill: rgba(0,0,0,1);
+}
+.bookmark-regular {
+    overflow: visible;
+    position: absolute;
+    width: 18.752px;
+    height: 25px;
+    left: 371.248px;
+    top: 410px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#comment-regular {
+    fill: rgba(0,0,0,1);
+}
+.comment-regular {
+    overflow: visible;
+    position: absolute;
+    width: 28.521px;
+    height: 25px;
+    left: 51.984px;
+    top: 410px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#heart-regular {
+    fill: rgba(0,0,0,1);
+}
+.heart-regular {
+    overflow: visible;
+    position: absolute;
+    width: 29.234px;
+    height: 25px;
+    left: 10px;
+    top: 410px;
+    transform: matrix(1,0,0,1,0,0);
 }
